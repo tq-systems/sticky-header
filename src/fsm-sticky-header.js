@@ -54,6 +54,7 @@
                         if (!clonedHeader){
                             createClone();
                             clonedHeader.css({ "visibility": "visible"});
+			    header.css({ "visibility": "hidden"});
                         }
 
                         if ( scrollTop < contentBottom && scrollTop > contentBottom - clonedHeader.outerHeight(false) ){
